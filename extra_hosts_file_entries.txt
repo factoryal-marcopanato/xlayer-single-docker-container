@@ -1,0 +1,12 @@
+# XLayer Container Entries
+127.0.0.1 configuration-holder.xlayer.docker
+127.0.0.1 factory-modeler.xlayer.docker
+127.0.0.1 factory-modeler-doc.xlayer.docker
+127.0.0.1 keycloak.xlayer.docker
+127.0.0.1 rabbitmq.xlayer.docker
+127.0.0.1 rabbitmq-management.xlayer.docker
+127.0.0.1 influxdb2.xlayer.docker
+127.0.0.1 grafana.xlayer.docker
+127.0.0.1 fcp-ui.xlayer.docker
+127.0.0.1 argocd.xlayer.docker
+# End of XLayer Container Entries

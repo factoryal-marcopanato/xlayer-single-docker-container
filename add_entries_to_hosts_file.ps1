@@ -1,0 +1,15 @@
+
+# Add an empty line to be sure
+Add-Content -Path C:\Windows\System32\Drivers\etc\hosts ""
+Add-Content -Path C:\Windows\System32\Drivers\etc\hosts "# XLayer Container Entries"
+Add-Content -Path C:\Windows\System32\Drivers\etc\hosts "127.0.0.1 configuration-holder.xlayer.docker"
+Add-Content -Path C:\Windows\System32\Drivers\etc\hosts "127.0.0.1 factory-modeler.xlayer.docker"
+Add-Content -Path C:\Windows\System32\Drivers\etc\hosts "127.0.0.1 factory-modeler-doc.xlayer.docker"
+Add-Content -Path C:\Windows\System32\Drivers\etc\hosts "127.0.0.1 keycloak.xlayer.docker"
+Add-Content -Path C:\Windows\System32\Drivers\etc\hosts "127.0.0.1 rabbitmq.xlayer.docker"
+Add-Content -Path C:\Windows\System32\Drivers\etc\hosts "127.0.0.1 rabbitmq-management.xlayer.docker"
+Add-Content -Path C:\Windows\System32\Drivers\etc\hosts "127.0.0.1 influxdb2.xlayer.docker"
+Add-Content -Path C:\Windows\System32\Drivers\etc\hosts "127.0.0.1 grafana.xlayer.docker"
+Add-Content -Path C:\Windows\System32\Drivers\etc\hosts "127.0.0.1 fcp-ui.xlayer.docker"
+Add-Content -Path C:\Windows\System32\Drivers\etc\hosts "127.0.0.1 argocd.xlayer.docker"
+Add-Content -Path C:\Windows\System32\Drivers\etc\hosts "# End of XLayer Container Entries"
